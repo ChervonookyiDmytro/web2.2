@@ -1,0 +1,189 @@
+[
+  {
+    "word": "apple",
+    "translation": "яблуко"
+  },
+  {
+    "word": "sky",
+    "translation": "небо"
+  },
+  {
+    "word": "dream",
+    "translation": "мрія"
+  },
+  {
+    "word": "river",
+    "translation": "річка"
+  },
+  {
+    "word": "forest",
+    "translation": "ліс"
+  },
+  {
+    "word": "book",
+    "translation": "книга"
+  },
+  {
+    "word": "friend",
+    "translation": "друг"
+  },
+  {
+    "word": "hope",
+    "translation": "надія"
+  },
+  {
+    "word": "love",
+    "translation": "кохання"
+  },
+  {
+    "word": "life",
+    "translation": "життя"
+  },
+  {
+    "word": "mountain",
+    "translation": "гора"
+  },
+  {
+    "word": "music",
+    "translation": "музика"
+  },
+  {
+    "word": "ocean",
+    "translation": "океан"
+  },
+  {
+    "word": "peace",
+    "translation": "мир"
+  },
+  {
+    "word": "planet",
+    "translation": "планета"
+  },
+  {
+    "word": "school",
+    "translation": "школа"
+  },
+  {
+    "word": "sea",
+    "translation": "море"
+  },
+  {
+    "word": "skyline",
+    "translation": "обрію"
+  },
+  {
+    "word": "song",
+    "translation": "пісня"
+  },
+  {
+    "word": "star",
+    "translation": "зірка"
+  },
+  {
+    "word": "story",
+    "translation": "історія"
+  },
+  {
+    "word": "sun",
+    "translation": "сонце"
+  },
+  {
+    "word": "teacher",
+    "translation": "вчитель"
+  },
+  {
+    "word": "tree",
+    "translation": "дерево"
+  },
+  {
+    "word": "universe",
+    "translation": "всесвіт"
+  },
+  {
+    "word": "village",
+    "translation": "село"
+  },
+  {
+    "word": "wind",
+    "translation": "вітер"
+  },
+  {
+    "word": "world",
+    "translation": "світ"
+  },
+  {
+    "word": "writer",
+    "translation": "письменник"
+  },
+  { "word": "city", "translation": "місто" },
+  { "word": "road", "translation": "дорога" },
+  { "word": "serendipity", "translation": "щаслива випадковість" },
+  { "word": "ephemeral", "translation": "миттєвий, нетривалий" },
+  { "word": "eloquence", "translation": "красномовність" },
+  { "word": "bridge", "translation": "міст" },
+  { "word": "train", "translation": "потяг" },
+  { "word": "bus", "translation": "автобус" },
+  { "word": "car", "translation": "автомобіль" },
+  { "word": "bicycle", "translation": "велосипед" },
+  { "word": "phone", "translation": "телефон" },
+  { "word": "computer", "translation": "комп'ютер" },
+  { "word": "internet", "translation": "інтернет" },
+  { "word": "email", "translation": "електронна пошта" },
+  { "word": "keyboard", "translation": "клавіатура" },
+  { "word": "screen", "translation": "екран" },
+  { "word": "desk", "translation": "письмовий стіл" },
+  { "word": "lamp", "translation": "лампа" },
+  { "word": "window", "translation": "вікно" },
+  { "word": "door", "translation": "двері" },
+  { "word": "floor", "translation": "підлога" },
+  { "word": "ceiling", "translation": "стеля" },
+  { "word": "wall", "translation": "стіна" },
+  { "word": "bed", "translation": "ліжко" },
+  { "word": "pillow", "translation": "подушка" },
+  { "word": "blanket", "translation": "ковдра" },
+  { "word": "clothes", "translation": "одяг" },
+  { "word": "shirt", "translation": "сорочка" },
+  { "word": "pants", "translation": "штани" },
+  { "word": "shoes", "translation": "взуття" },
+  { "word": "jacket", "translation": "куртка" },
+  { "word": "hat", "translation": "капелюх" },
+  { "word": "gloves", "translation": "рукавички" },
+  { "word": "food", "translation": "їжа" },
+  { "word": "water", "translation": "вода" },
+  { "word": "bread", "translation": "хліб" },
+  { "word": "milk", "translation": "молоко" },
+  { "word": "cheese", "translation": "сир" },
+  { "word": "egg", "translation": "яйце" },
+  { "word": "meat", "translation": "м'ясо" },
+  { "word": "fish", "translation": "риба" },
+  { "word": "fruit", "translation": "фрукти" },
+  { "word": "vegetable", "translation": "овочі" },
+  { "word": "banana", "translation": "банан" },
+  { "word": "orange", "translation": "апельсин" },
+  { "word": "grape", "translation": "виноград" },
+  { "word": "lemon", "translation": "лимон" },
+  { "word": "onion", "translation": "цибуля" },
+  { "word": "carrot", "translation": "морква" },
+  { "word": "tomato", "translation": "помідор" },
+  { "word": "potato", "translation": "картопля" },
+  { "word": "doctor", "translation": "лікар" },
+  { "word": "nurse", "translation": "медсестра" },
+  { "word": "hospital", "translation": "лікарня" },
+  { "word": "medicine", "translation": "ліки" },
+  { "word": "health", "translation": "здоров'я" },
+  { "word": "illness", "translation": "хвороба" },
+  { "word": "pain", "translation": "біль" },
+  { "word": "heart", "translation": "серце" },
+  { "word": "brain", "translation": "мозок" },
+  { "word": "eye", "translation": "око" },
+  { "word": "ear", "translation": "вухо" },
+  { "word": "hand", "translation": "рука" },
+  { "word": "leg", "translation": "нога" },
+  { "word": "foot", "translation": "стопа" },
+  { "word": "finger", "translation": "палець" },
+  { "word": "tooth", "translation": "зуб" },
+  { "word": "hair", "translation": "волосся" },
+  { "word": "face", "translation": "обличчя" },
+  { "word": "smile", "translation": "усмішка" },
+  { "word": "voice", "translation": "голос" }
+]

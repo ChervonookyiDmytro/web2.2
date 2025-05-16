@@ -1,0 +1,85 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.app-main {
+  height: calc(100vh - 130px);
+  /* 70px navbar + 60px footer */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.word-card {
+  width: 100%;
+  max-width: 800px;
+  height: 400px;
+  border-radius: 16px;
+}
+
+.word {
+  font-size: 55px;
+  font-style: italic;
+  font-weight: 600;
+  color: #1e90ff;
+  text-align: center;
+}
+
+.practice-btn {
+  padding: 12px 28px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(90deg, #59abfd, #1e90ff, #59abfd);
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.practice-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.25);
+  opacity: 0.9;
+}
+
+
+@media (max-width: 576px) {
+  .word-card {
+    height: 320px;
+    padding: 1rem;
+  }
+
+  .word {
+    font-size: 36px;
+  }
+
+  .practice-btn {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
+  .word-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .word-buttons .btn {
+    width: 100%;
+  }
+
+  .app-main {
+    padding-top: 80px;
+    height: calc(100vh - 130px - 70px);
+  }
+
+}

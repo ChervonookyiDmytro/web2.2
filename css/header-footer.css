@@ -1,0 +1,192 @@
+:root {
+    --header-height: 70px;
+    --footer-height: 60px;
+  }
+  
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(240, 248, 255);
+    color: rgb(28, 35, 43);
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: var(--header-height);
+    padding-bottom: var(--footer-height);
+  }
+  
+  main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .my-custom-header {
+    height: var(--header-height);
+    background-color: rgb(240, 248, 255);
+    font-size: 25px;
+    z-index: 1040;
+  }
+  
+  .my-navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    background: linear-gradient(270deg, #1e90ff, #13b664, #ff6384, #1e90ff);
+    background-size: 600% 600%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientFlow 5s ease infinite;
+    transition: transform 0.2s ease;
+  }
+  
+  .my-navbar-brand:hover {
+    animation: jump 0.65s ease;
+  }
+  
+  @keyframes gradientFlow {
+    0%   { background-position: 0% 50%; }
+    50%  { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  @keyframes jump {
+    0%   { transform: translateY(0); }
+    30%  { transform: translateY(-8px); }
+    60%  { transform: translateY(4px); }
+    100% { transform: translateY(0); }
+  }
+  
+  .my-nav-link {
+    color: rgb(28, 35, 43);
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .my-nav-link:hover {
+    color: rgb(30, 144, 255);
+    transform: translateY(-2px);
+  }
+  
+  .my-nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, #1e90ff, #13b664, #ff6384);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+  }
+  
+  .my-nav-link:hover::after {
+    transform: scaleX(1);
+  }
+  
+  .my-footer {
+    background-color: rgb(240, 248, 255);
+    height: var(--footer-height);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 8px;
+    z-index: 1000;
+    overflow: hidden;
+  }
+  
+  .my-footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    background: linear-gradient(270deg, #1e90ff, #13b664, #ff6384, #1e90ff);
+    background-size: 400% 400%;
+    animation: borderGradient 6s ease infinite;
+    z-index: 1;
+  }
+  
+  .my-footer .container {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+  }
+  
+  @keyframes borderGradient {
+    0%   { background-position: 0% 50%; }
+    50%  { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  @media (max-width: 991.98px) {
+    .navbar-collapse {
+      background-color: rgba(224, 239, 253, 0.85);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      border-radius: 0 0 12px 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      padding: 1rem;
+      transition: all 0.3s ease;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    body {
+      font-size: 0.95rem;
+    }
+  
+    .my-navbar-brand {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+  
+    .navbar-nav {
+      text-align: center;
+    }
+  
+    .my-nav-link {
+      padding: 10px 0;
+      display: block;
+    }
+  
+    .my-footer {
+      font-size: 0.8rem;
+      padding-top: 5px;
+      height: auto;
+    }
+  
+    .my-footer::before {
+      height: 3px;
+    }
+  
+    .my-footer .container {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+  
+  .fade-in {
+    opacity: 0;
+    animation: fadeIn 0.8s ease forwards;
+  }
+  
+  @keyframes fadeIn {
+    to { opacity: 1; }
+  }
+  
